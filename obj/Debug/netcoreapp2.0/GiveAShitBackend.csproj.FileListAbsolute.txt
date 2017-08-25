@@ -1,0 +1,10 @@
+C:\Users\tcornwell\datacomp\GiveAShitBackend\bin\Debug\netcoreapp2.0\GiveAShitBackend.deps.json
+C:\Users\tcornwell\datacomp\GiveAShitBackend\bin\Debug\netcoreapp2.0\GiveAShitBackend.runtimeconfig.json
+C:\Users\tcornwell\datacomp\GiveAShitBackend\bin\Debug\netcoreapp2.0\GiveAShitBackend.runtimeconfig.dev.json
+C:\Users\tcornwell\datacomp\GiveAShitBackend\bin\Debug\netcoreapp2.0\GiveAShitBackend.dll
+C:\Users\tcornwell\datacomp\GiveAShitBackend\bin\Debug\netcoreapp2.0\GiveAShitBackend.pdb
+C:\Users\tcornwell\datacomp\GiveAShitBackend\obj\Debug\netcoreapp2.0\GiveAShitBackend.csproj.CoreCompileInputs.cache
+C:\Users\tcornwell\datacomp\GiveAShitBackend\obj\Debug\netcoreapp2.0\GiveAShitBackend.AssemblyInfoInputs.cache
+C:\Users\tcornwell\datacomp\GiveAShitBackend\obj\Debug\netcoreapp2.0\GiveAShitBackend.AssemblyInfo.cs
+C:\Users\tcornwell\datacomp\GiveAShitBackend\obj\Debug\netcoreapp2.0\GiveAShitBackend.dll
+C:\Users\tcornwell\datacomp\GiveAShitBackend\obj\Debug\netcoreapp2.0\GiveAShitBackend.pdb
