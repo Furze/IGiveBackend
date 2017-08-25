@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6256ebe6-7b07-4615-b646-0900f2966bf9" name="Default" comment="" />
+    <list default="true" id="6256ebe6-7b07-4615-b646-0900f2966bf9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aws-windows-deployment-manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/GiveAShitBackend.dll" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/GiveAShitBackend.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/GiveAShitBackend.pdb" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/GiveAShitBackend.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/GiveAShitBackend.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/GiveAShitBackend.csproj.CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/GiveAShitBackend.dll" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/GiveAShitBackend.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/GiveAShitBackend.pdb" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/GiveAShitBackend.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/GiveAShitBackend.csproj.nuget.cache" afterPath="$PROJECT_DIR$/obj/GiveAShitBackend.csproj.nuget.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GiveAShitBackend/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GiveAShitBackend/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GiveAShitBackend.csproj" afterPath="$PROJECT_DIR$/GiveAShitBackend.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Program.cs" afterPath="$PROJECT_DIR$/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsettings.json" afterPath="$PROJECT_DIR$/appsettings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/GiveAShitBackend.deps.json" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/GiveAShitBackend.deps.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/project.assets.json" afterPath="$PROJECT_DIR$/obj/project.assets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,45 +29,47 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductService.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Services/ProductService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <marker date="1503660633961" expanded="true" signature="6:97" ph="..." />
-                <marker date="1503660633961" expanded="true" signature="134:1010" ph="{...}" />
-                <marker date="1503660633961" expanded="true" signature="186:1008" ph="{...}" />
-                <marker date="1503660633961" expanded="true" signature="296:352" ph="{...}" />
-                <marker date="1503660633961" expanded="true" signature="405:691" ph="{...}" />
-                <marker date="1503660633961" expanded="true" signature="431:503" ph="{...}" />
-                <marker date="1503660633961" expanded="true" signature="535:669" ph="{...}" />
-                <marker date="1503660633961" expanded="true" signature="751:849" ph="{...}" />
-                <marker date="1503660633961" expanded="true" signature="898:1002" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IProductService.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Services/IProductService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding>
-                <marker date="1503660668577" expanded="true" signature="6:78" ph="..." />
-                <marker date="1503660668577" expanded="true" signature="115:310" ph="{...}" />
-                <marker date="1503660668577" expanded="true" signature="154:308" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GiveAShitBackend.csproj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GiveAShitBackend.csproj">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aws-windows-deployment-manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-windows-deployment-manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <marker date="1503696104566" expanded="true" signature="0:349" ph="{...}" />
+                <marker date="1503696104566" expanded="true" signature="47:347" ph="{...}" />
+                <marker date="1503696104566" expanded="true" signature="74:341" ph="[...]" />
+                <marker date="1503696104566" expanded="true" signature="88:331" ph="{...}" />
+                <marker date="1503696104566" expanded="true" signature="164:317" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="88" lean-forward="false" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -59,7 +78,7 @@
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="37">
               <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding>
                 <marker date="1503693489366" expanded="true" signature="6:437" ph="..." />
@@ -74,29 +93,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appsettings.Development.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appsettings.Development.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1503652839708" expanded="true" signature="15:162" ph="{...}" />
-                <marker date="1503652839708" expanded="true" signature="61:158" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1503695191304" expanded="true" signature="15:207" ph="{...}" />
-                <marker date="1503695191304" expanded="true" signature="78:116" ph="{...}" />
-                <marker date="1503695191304" expanded="true" signature="159:197" ph="{...}" />
-                <marker date="1503695191304" expanded="true" signature="217:342" ph="{...}" />
+                <marker date="1503695658976" expanded="true" signature="15:207" ph="{...}" />
+                <marker date="1503695658976" expanded="true" signature="78:116" ph="{...}" />
+                <marker date="1503695658976" expanded="true" signature="159:197" ph="{...}" />
+                <marker date="1503695658976" expanded="true" signature="217:368" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductsController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductsController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/ProductsController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -139,27 +145,24 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <marker date="1503652839793" expanded="false" signature="6:255" ph="..." />
-                <marker date="1503652839793" expanded="true" signature="283:604" ph="{...}" />
-                <marker date="1503652839793" expanded="true" signature="310:602" ph="{...}" />
-                <marker date="1503652839793" expanded="true" signature="363:421" ph="{...}" />
+                <marker date="1503695799194" expanded="true" signature="6:255" ph="..." />
+                <marker date="1503695799194" expanded="true" signature="283:657" ph="{...}" />
+                <marker date="1503695799194" expanded="true" signature="310:655" ph="{...}" />
+                <marker date="1503695799194" expanded="true" signature="363:649" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Models/Product.cs">
+      <file leaf-file-name="web.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <marker date="1503661106290" expanded="true" signature="92:341" ph="{...}" />
-                <marker date="1503661106290" expanded="true" signature="119:339" ph="{...}" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,14 +176,16 @@
     <setting file="file://$PROJECT_DIR$/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/GASDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0998BF91-1F01-4E78-84D2-695C95A67016/51/4aefd368/DbContext.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/DonationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/aws-windows-deployment-manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ProductsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0998BF91-1F01-4E78-84D2-695C95A67016/51/4aefd368/DbContext.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -192,10 +197,15 @@
         <option value="$PROJECT_DIR$/Services/ProductService.cs" />
         <option value="$PROJECT_DIR$/Services/IProductService.cs" />
         <option value="$PROJECT_DIR$/Models/Product.cs" />
-        <option value="$PROJECT_DIR$/GiveAShitBackend.csproj" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0998BF91-1F01-4E78-84D2-695C95A67016/51/4aefd368/DbContext.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/web.config" />
+        <option value="$PROJECT_DIR$/GiveAShitBackend.csproj" />
+        <option value="$PROJECT_DIR$/aws-windows-deployment-manifest.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -206,9 +216,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1057" />
+    <option name="x" value="1181" />
+    <option name="y" value="3" />
+    <option name="width" value="809" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,6 +251,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GiveAShitBackend" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GiveAShitBackend (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GiveAShitBackend" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,7 +334,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
     <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
@@ -408,12 +437,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503646767520</updated>
       <workItem from="1503646769991" duration="1682000" />
-      <workItem from="1503652939485" duration="9028000" />
+      <workItem from="1503652939485" duration="10122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10710000" />
+    <option name="totallyTimeSpent" value="11804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,17 +454,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1057" extended-state="0" />
+    <frame x="1181" y="3" width="809" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4553377" sideWeight="0.5044136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44139388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4553377" sideWeight="0.4955864" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36619717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.59016395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -479,19 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1503652839793" expanded="false" signature="6:255" ph="..." />
-            <marker date="1503652839793" expanded="true" signature="283:604" ph="{...}" />
-            <marker date="1503652839793" expanded="true" signature="310:602" ph="{...}" />
-            <marker date="1503652839793" expanded="true" signature="363:421" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -521,30 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GiveAShitBackend.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="88" lean-forward="false" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <marker date="1503693489366" expanded="true" signature="6:437" ph="..." />
-            <marker date="1503693489366" expanded="true" signature="465:1774" ph="{...}" />
-            <marker date="1503693489366" expanded="true" signature="492:1772" ph="{...}" />
-            <marker date="1503693489366" expanded="true" signature="551:614" ph="{...}" />
-            <marker date="1503693489366" expanded="true" signature="837:1274" ph="{...}" />
-            <marker date="1503693489366" expanded="true" signature="1492:1766" ph="{...}" />
-            <marker date="1503693489366" expanded="true" signature="1652:1729" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Models/Product.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -561,19 +554,6 @@
         <state relative-caret-position="202">
           <caret line="307" column="36" lean-forward="false" selection-start-line="307" selection-start-column="36" selection-end-line="307" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1503695191304" expanded="true" signature="15:207" ph="{...}" />
-            <marker date="1503695191304" expanded="true" signature="78:116" ph="{...}" />
-            <marker date="1503695191304" expanded="true" signature="159:197" ph="{...}" />
-            <marker date="1503695191304" expanded="true" signature="217:342" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,6 +604,94 @@
             <marker date="1503654586344" expanded="true" signature="772:857" ph="{...}" />
             <marker date="1503654586344" expanded="true" signature="957:1026" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1503695658976" expanded="true" signature="15:207" ph="{...}" />
+            <marker date="1503695658976" expanded="true" signature="78:116" ph="{...}" />
+            <marker date="1503695658976" expanded="true" signature="159:197" ph="{...}" />
+            <marker date="1503695658976" expanded="true" signature="217:368" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1503695799194" expanded="true" signature="6:255" ph="..." />
+            <marker date="1503695799194" expanded="true" signature="283:657" ph="{...}" />
+            <marker date="1503695799194" expanded="true" signature="310:655" ph="{...}" />
+            <marker date="1503695799194" expanded="true" signature="363:649" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <marker date="1503693489366" expanded="true" signature="6:437" ph="..." />
+            <marker date="1503693489366" expanded="true" signature="465:1774" ph="{...}" />
+            <marker date="1503693489366" expanded="true" signature="492:1772" ph="{...}" />
+            <marker date="1503693489366" expanded="true" signature="551:614" ph="{...}" />
+            <marker date="1503693489366" expanded="true" signature="837:1274" ph="{...}" />
+            <marker date="1503693489366" expanded="true" signature="1492:1766" ph="{...}" />
+            <marker date="1503693489366" expanded="true" signature="1652:1729" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GiveAShitBackend.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-windows-deployment-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1503696104566" expanded="true" signature="0:349" ph="{...}" />
+            <marker date="1503696104566" expanded="true" signature="47:347" ph="{...}" />
+            <marker date="1503696104566" expanded="true" signature="74:341" ph="[...]" />
+            <marker date="1503696104566" expanded="true" signature="88:331" ph="{...}" />
+            <marker date="1503696104566" expanded="true" signature="164:317" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
