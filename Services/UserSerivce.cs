@@ -24,9 +24,15 @@ namespace GiveAShitBackend.Services
             _dbcontext.SaveChanges();
         }
 
-        public User GetUser(User user)
+        public User GetUser(int user)
         {
-           var userToGet = _dbcontext.Users.First(x => x.Id == user.Id);
+           var userToGet = _dbcontext.Users.First(x => x.Id == user);
+            return userToGet;
+        }
+
+        public User GetUserByCardID(string cardId)
+        {
+            var userToGet = _dbcontext.Users.First(x => x.CardId == cardId);
             return userToGet;
         }
     }

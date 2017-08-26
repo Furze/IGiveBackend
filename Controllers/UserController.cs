@@ -35,5 +35,12 @@ namespace GiveAShitBackend.Controllers
         {
             return null;
         }
+
+        // GET api/products?userId=
+        [HttpGet("{cardId}")]
+        public User Get([FromQuery] string cardId)
+        {
+            return userService.GetUserByCardID(cardId);
+        }
     }
 }
