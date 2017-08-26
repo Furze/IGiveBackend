@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using GiveAShitBackend.Database;
 using GiveAShitBackend.Database.Models;
+using Microsoft.CodeAnalysis.CSharp;
 
 namespace GiveAShitBackend.Services
 {
@@ -16,13 +17,18 @@ namespace GiveAShitBackend.Services
             _dbContext = dbContext;
         }
 
-        public string CreateBarcode(IEnumerable<Product> products)
+        public string CreateBarcode(IEnumerable<Product> products, int userId)
         {
-            List<Product> productsForBarcode = products.Select(product => _dbContext.Products.First(x => x.Id.Equals(product.Id))).ToList();
+            List<ProductAssignment> productAssignments = new List<ProductAssignment>();
+            foreach (var product in products)
+            {
+               productAssignments.Add(_dbContext.ProductAssignments.First(x => (x.Id.Equals(product.Id) && x.User.Id == userId)));
+            }
 
             var barcode = new Barcode
-            {
-                Products = productsForBarcode,
+            {   
+                
+                Products = productAssignments,
                 Guid = Guid.NewGuid().ToString()
             };
 

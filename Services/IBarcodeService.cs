@@ -7,6 +7,6 @@ namespace GiveAShitBackend.Services
 {
     public interface IBarcodeService
     {
-        string CreateBarcode(IEnumerable<Product> products);
+        string CreateBarcode(IEnumerable<Product> products, int user);
     }
 }
