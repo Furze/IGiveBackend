@@ -6,7 +6,7 @@ namespace GiveAShitBackend.Services
 {
     public interface IUserService
     {
-        User GetUser(User user);
+        User GetUser(int userId);
         void AddUser(User user);
     }
 }

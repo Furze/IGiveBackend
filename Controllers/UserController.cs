@@ -33,7 +33,7 @@ namespace GiveAShitBackend.Controllers
         [HttpGet("{userId}")]
         public User Get([FromQuery] int userId)
         {
-            return null;
+            return userService.GetUser(userId);
         }
     }
 }

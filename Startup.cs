@@ -34,6 +34,8 @@ namespace GiveAShitBackend
             services.AddMvc();
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IBarcodeService, BarcodeSevice>();
+            services.AddTransient<IDonationService, DonationService>();
+            services.AddTransient<IUserService, UserService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
