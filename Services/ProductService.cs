@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using GiveAShitBackend.Models;
+using GiveAShitBackend.Database;
+using GiveAShitBackend.Database.Models;
 
 namespace GiveAShitBackend.Services
 {

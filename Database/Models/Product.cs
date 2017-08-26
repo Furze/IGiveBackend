@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 
-namespace GiveAShitBackend.Models
+namespace GiveAShitBackend.Database.Models
 {
     public class Product
     {

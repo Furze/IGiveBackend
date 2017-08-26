@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using GiveAShitBackend.Models;
+using GiveAShitBackend.Database.Models;
 
 namespace GiveAShitBackend.Services
 {

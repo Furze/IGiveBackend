@@ -1,8 +1,8 @@
-﻿using GiveAShitBackend.Models;
+﻿using GiveAShitBackend.Database.Models;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace GiveAShitBackend.Services
+namespace GiveAShitBackend.Database
 {
     public class GASDbContext : DbContext
     {

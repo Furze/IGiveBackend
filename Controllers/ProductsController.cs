@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using GiveAShitBackend.Models;
+using GiveAShitBackend.Database.Models;
 using GiveAShitBackend.Services;
 using Microsoft.AspNetCore.Mvc;
 
