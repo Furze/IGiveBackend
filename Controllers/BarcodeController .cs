@@ -20,9 +20,9 @@ namespace GiveAShitBackend.Controllers
 
         // POST api/values
         [HttpPost]
-        public string Post([FromBody]IEnumerable<Product> products)
+        public string Post([FromBody]IEnumerable<Product> products, [FromQuery] int user)
         {
-            return _barcodeService.CreateBarcode(products);
+            return _barcodeService.CreateBarcode(products, user);
         }
     }
 }

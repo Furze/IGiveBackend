@@ -45,7 +45,7 @@ namespace GiveAShitBackend.Controllers
         public IEnumerable<Product> Get([FromQuery] int userId)
         {
             var productAssignments = _productService.GetAssignedProducts(userId);
-            return productAssignments.Select(p => p.Transaction.Product).ToList();
+            return productAssignments.Select(p => p.Product).ToList();
         }
     }
 }

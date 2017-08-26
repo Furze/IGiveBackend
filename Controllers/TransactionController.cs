@@ -20,7 +20,7 @@ namespace GiveAShitBackend.Controllers
         }
 
         [HttpPost]
-        public string Post([FromBody]Object stupidEndpoint)
+        public string Post([FromBody]Object stupidEndpoint, [FromQuery] int user)
         {
             if (stupidEndpoint is string)
             {
@@ -28,7 +28,7 @@ namespace GiveAShitBackend.Controllers
             }
             else
             {
-               return _donationService.GiveItems((IEnumerable<Product>) stupidEndpoint);
+               return _donationService.GiveItems((IEnumerable<Product>) stupidEndpoint, user);
             }
         }
     }

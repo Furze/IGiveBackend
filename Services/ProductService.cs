@@ -31,7 +31,7 @@ namespace GiveAShitBackend.Services
         {
             try
             {
-                return _dbContext.ProductAssignments.Where(x => x.User.Id == userId);
+                return _dbContext.ProductAssignments.Where(x => x.User.Name == "Drew" && !x.Completed );
             }catch (Exception e)
             {
                 throw e;
