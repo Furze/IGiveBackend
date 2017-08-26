@@ -17,17 +17,14 @@ namespace GiveAShitBackend.Controllers
         public TransactionController(IDonationService donationService)
         {
             _donationService = donationService;
-
         }
 
-       
         [HttpPost]
         public string Post([FromBody]Object stupidEndpoint)
         {
             if (stupidEndpoint is string)
             {
-                return _donationService.RedemItems((string) stupidEndpoint);
-               
+                return _donationService.RedemItems((string) stupidEndpoint);               
             }
             else
             {

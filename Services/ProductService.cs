@@ -27,11 +27,11 @@ namespace GiveAShitBackend.Services
            
         }
 
-        public IEnumerable<ProductAssignment> GetAssignedProducts(int UserId)
+        public IEnumerable<ProductAssignment> GetAssignedProducts(int userId)
         {
             try
             {
-                return _dbContext.ProductAssignments.Where(x => x.User.Id == UserId);
+                return _dbContext.ProductAssignments.Where(x => x.User.Id == userId);
             }catch (Exception e)
             {
                 throw e;

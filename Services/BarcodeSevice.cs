@@ -20,7 +20,7 @@ namespace GiveAShitBackend.Services
         {
             List<Product> productsForBarcode = products.Select(product => _dbContext.Products.First(x => x.Id.Equals(product.Id))).ToList();
 
-            Barcode barcode = new Barcode
+            var barcode = new Barcode
             {
                 Products = productsForBarcode,
                 Guid = Guid.NewGuid().ToString()

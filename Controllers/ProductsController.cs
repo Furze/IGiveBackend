@@ -12,7 +12,7 @@ namespace GiveAShitBackend.Controllers
     [Route("api/[controller]")]
     public class ProductsController : Controller
     {
-        private IProductService _productService;
+        private readonly IProductService _productService;
 
         public ProductsController(IProductService productService)
         {
@@ -35,28 +35,17 @@ namespace GiveAShitBackend.Controllers
 
         // POST api/products
         [HttpPost]
-        public void Post([FromBody]Product product)
+        public void Post([FromBody] Product product)
         {
             _productService.AddProduct(product);
         }
 
         // GET api/products?userId=
         [HttpGet("{userId}")]
-        public IEnumerable<Product> Get([FromQuery] int UserId)
+        public IEnumerable<Product> Get([FromQuery] int userId)
         {
-           var ProductAssignments = _productService.GetAssignedProducts(UserId);
-            List<Product> productList = new List<Product>();
-
-
-            foreach(ProductAssignment p in ProductAssignments)
-            {
-
-                productList.Add(p.Transaction.Product);
-
-            }
-            return productList;
-
-            }
-         }
+            var productAssignments = _productService.GetAssignedProducts(userId);
+            return productAssignments.Select(p => p.Transaction.Product).ToList();
+        }
     }
-
+}

@@ -7,6 +7,6 @@ namespace GiveAShitBackend.Services
     public interface IDonationService
     {
         string GiveItems(IEnumerable<Product> products);
-        string RedemItems(String barcode);
+        string RedemItems(string barcode);
     }
 }
