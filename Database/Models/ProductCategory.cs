@@ -9,7 +9,7 @@ namespace GiveAShitBackend.Database.Models
     {
         public enum ProductType { Fruit, Vegetables, Bakery, Meat}
 
-
+        public int Id { get; set; }
         public Product Product{ get; set; }
         public ProductType Type { get; set; }
     }

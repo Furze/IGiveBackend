@@ -10,37 +10,37 @@ using Microsoft.AspNetCore.Server.Kestrel.Internal.System.Collections.Sequences;
 namespace GiveAShitBackend.Controllers
 {
     [Route("api/[controller]")]
-    public class ProductController : Controller
+    public class ProductsController : Controller
     {
         private IProductService _productService;
 
-        public ProductController(IProductService productService)
+        public ProductsController(IProductService productService)
         {
             _productService = productService;
         }
 
-        // GET api/product
+        // GET api/products
         [HttpGet]
         public IEnumerable<Product> Get()
         {
             return _productService.GetAllProducts();
         }
 
-        // GET api/product/5
+        // GET api/products/5
         [HttpGet("{barcode}")]
         public Product Get(string barcode)
         {
             return _productService.GetProductByBarcode(barcode);
         }
 
-        // POST api/product
+        // POST api/products
         [HttpPost]
         public void Post([FromBody]Product product)
         {
             _productService.AddProduct(product);
         }
 
-        // GET api/product?userId=
+        // GET api/products?userId=
         [HttpGet("{userId}")]
         public IEnumerable<Product> Get([FromQuery] int UserId)
         {

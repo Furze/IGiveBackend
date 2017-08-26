@@ -29,18 +29,13 @@ namespace GiveAShitBackend.Services
 
         public IEnumerable<ProductAssignment> GetAssignedProducts(int UserId)
         {
-
             try
             {
-                return _dbContext.ProductAssignments.Where(x => x.UserId.Id == UserId);
-
-
+                return _dbContext.ProductAssignments.Where(x => x.User.Id == UserId);
             }catch (Exception e)
             {
                 throw e;
-
             }
-
         }
 
         public Product GetProductByBarcode(string barcode)
