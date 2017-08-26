@@ -6,7 +6,8 @@ namespace GiveAShitBackend.Services
 {
     public interface IUserService
     {
-        User GetUser(int userId);
+        User GetUser(int user);
+        User GetUserByCardID(string user);
         void AddUser(User user);
     }
 }

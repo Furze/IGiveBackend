@@ -9,11 +9,11 @@ namespace GiveAShitBackend.Services
 {
 
    
-    public class UserService : IUserService
+    public class UserSerivce : IUserService
     {
         GASDbContext _dbcontext;
 
-        public UserService(GASDbContext dbcontext)
+        public UserSerivce(GASDbContext dbcontext)
         {
             _dbcontext = dbcontext;
         }
@@ -24,9 +24,15 @@ namespace GiveAShitBackend.Services
             _dbcontext.SaveChanges();
         }
 
-        public User GetUser(int userId)
+        public User GetUser(int user)
         {
-           var userToGet = _dbcontext.Users.First(x => x.Id == userId);
+           var userToGet = _dbcontext.Users.First(x => x.Id == user);
+            return userToGet;
+        }
+
+        public User GetUserByCardID(string cardId)
+        {
+            var userToGet = _dbcontext.Users.First(x => x.CardId == cardId);
             return userToGet;
         }
     }
