@@ -6,7 +6,7 @@ namespace GiveAShitBackend.Database.Models
     {
         public int Id { get; set; }
         public string Guid { get; set; }
-        public IEnumerable<Product> Products { get; set; } 
+        public IEnumerable<ProductAssignment> Products { get; set; } 
         public User User { get; set; }
     }
 }
