@@ -9,11 +9,11 @@ namespace GiveAShitBackend.Services
 {
 
    
-    public class UserSerivce : IUserService
+    public class UserService : IUserService
     {
         GASDbContext _dbcontext;
 
-        public UserSerivce(GASDbContext dbcontext)
+        public UserService(GASDbContext dbcontext)
         {
             _dbcontext = dbcontext;
         }

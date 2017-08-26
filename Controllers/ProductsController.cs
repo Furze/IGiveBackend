@@ -27,7 +27,8 @@ namespace GiveAShitBackend.Controllers
         }
 
         // GET api/products/5
-        [HttpGet("{barcode}")]
+        [HttpGet]
+        [Route("GetByBarcode")]
         public Product Get(string barcode)
         {
             return _productService.GetProductByBarcode(barcode);
@@ -41,7 +42,8 @@ namespace GiveAShitBackend.Controllers
         }
 
         // GET api/products?userId=
-        [HttpGet("{userId}")]
+        [HttpGet]
+        [Route("GetByUser")]
         public IEnumerable<Product> Get([FromQuery] int userId)
         {
             var productAssignments = _productService.GetAssignedProducts(userId);

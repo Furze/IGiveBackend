@@ -30,15 +30,17 @@ namespace GiveAShitBackend.Controllers
         }
 
         // GET api/products?userId=
-        [HttpGet("{userId}")]
-        public User Get([FromQuery] int userId)
+        [HttpGet()]
+        [Route("GetByID")]
+        public User Get(int userId)
         {
             return userService.GetUser(userId);
         }
 
         // GET api/products?userId=
-        [HttpGet("{cardId}")]
-        public User Get([FromQuery] string cardId)
+        [HttpGet]
+        [Route("GetByCard")]
+        public User Get(string cardId)
         {
             return userService.GetUserByCardID(cardId);
         }
