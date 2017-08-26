@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
+﻿using Microsoft.AspNetCore.ApplicationInsights.HostingStartup;
+using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 
 namespace GiveAShitBackend.Database.Models
 {
@@ -10,5 +11,6 @@ namespace GiveAShitBackend.Database.Models
         public string ImageUrl { get; set; }
         public string Barcode { get; set; }
         public string Brand { get; set; }
+        public string Desc { get; set; }
     }
 }
