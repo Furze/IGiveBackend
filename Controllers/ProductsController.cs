@@ -29,7 +29,7 @@ namespace GiveAShitBackend.Controllers
         // GET api/products/5
         [HttpGet]
         [Route("GetByBarcode")]
-        public Product Get(string barcode)
+        public Product Get([FromQuery] string barcode)
         {
             return _productService.GetProductByBarcode(barcode);
         }

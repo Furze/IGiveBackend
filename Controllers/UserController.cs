@@ -30,9 +30,9 @@ namespace GiveAShitBackend.Controllers
         }
 
         // GET api/products?userId=
-        [HttpGet()]
+        [HttpGet]
         [Route("GetByID")]
-        public User Get(int userId)
+        public User Get([FromQuery] int userId)
         {
             return userService.GetUser(userId);
         }
@@ -40,7 +40,7 @@ namespace GiveAShitBackend.Controllers
         // GET api/products?userId=
         [HttpGet]
         [Route("GetByCard")]
-        public User Get(string cardId)
+        public User Get([FromQuery] string cardId)
         {
             return userService.GetUserByCardID(cardId);
         }
