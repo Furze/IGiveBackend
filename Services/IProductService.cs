@@ -8,6 +8,7 @@ namespace GiveAShitBackend.Services
     {
         IEnumerable<Product> GetAllProducts();
         Product GetProductByBarcode(string barcode);
+        IEnumerable<ProductAssignment> GetAssignedProducts(int UserId);
         void AddProduct(Product product);
     }
 }

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using GiveAShitBackend.Database.Models;
 using GiveAShitBackend.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Server.Kestrel.Internal.System.Collections.Sequences;
 
 namespace GiveAShitBackend.Controllers
 {
@@ -41,9 +42,21 @@ namespace GiveAShitBackend.Controllers
 
         // GET api/product?userId=
         [HttpGet("{userId}")]
-        public Product Get([FromQuery] int userId)
+        public IEnumerable<Product> Get([FromQuery] int UserId)
         {
-            return null;
+           var ProductAssignments = _productService.GetAssignedProducts(UserId);
+            List<Product> productList = new List<Product>();
+
+
+            foreach(ProductAssignment p in ProductAssignments)
+            {
+
+                productList.Add(p.Transaction.Product);
+
+            }
+            return productList;
+
+            }
          }
     }
-}
+

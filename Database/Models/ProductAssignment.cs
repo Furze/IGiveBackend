@@ -10,7 +10,7 @@ namespace GiveAShitBackend.Database.Models
         public enum Status { Pending, Cancelled, Complete} 
 
         public int Id { get; set; }
-        public User UserId { get; set; }
+        public User User{ get; set; }
         public TransactionProducts Transaction { get; set; }
         public Status ProductStatus { get; set; }
 

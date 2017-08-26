@@ -8,8 +8,8 @@ namespace GiveAShitBackend.Database.Models
     public class TransactionProducts
     {
         public int Id { get; set; }
-        public  UserTransaction  UserTransactionId{ get; set; }
-        public Product ProductId { get; set; }
+        public  UserTransaction  UserTransaction{ get; set; }
+        public Product Product { get; set; }
         public bool Assigned { get; set; }
     }
 }
