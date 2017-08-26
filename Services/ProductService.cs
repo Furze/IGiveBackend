@@ -27,6 +27,22 @@ namespace GiveAShitBackend.Services
            
         }
 
+        public IEnumerable<Product> GetAssignedProducts()
+        {
+
+            try
+            {
+                return _dbContext.
+
+
+            }catch (Exception e)
+            {
+
+
+            }
+
+        }
+
         public Product GetProductByBarcode(string barcode)
         {
             return _dbContext.Products.First(x => x.Barcode.Equals(barcode));

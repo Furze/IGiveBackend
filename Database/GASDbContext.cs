@@ -9,10 +9,15 @@ namespace GiveAShitBackend.Database
         public GASDbContext(DbContextOptions<GASDbContext> options) : base(options)
         {
         }
-       
+
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<User> Users { get; set; }
-        
+        public virtual DbSet<ProductAssignment>ProductAssignments {get;set;}
+        public virtual DbSet<ProductCategory>ProductCategories { get; set; }
+        public virtual DbSet<TransactionProducts> TransactionProducts { get; set; }
+        public virtual DbSet<Donation> Donations { get; set; }
+        public virtual DbSet<BlackListedProducts> BlackList { get; set; }
+        public virtual DbSet<UserTransaction> UserTransactions { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

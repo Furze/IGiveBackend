@@ -12,17 +12,17 @@ namespace GiveAShitBackend.Controllers
     public class ProductController : Controller
     {
         private IProductService _productService;
-        
+
         public ProductController(IProductService productService)
         {
             _productService = productService;
         }
-        
+
         // GET api/product
         [HttpGet]
         public IEnumerable<Product> Get()
         {
-           return _productService.GetAllProducts();
+            return _productService.GetAllProducts();
         }
 
         // GET api/product/5
@@ -39,5 +39,11 @@ namespace GiveAShitBackend.Controllers
             _productService.AddProduct(product);
         }
 
+        // GET api/product?userId=
+        [HttpGet("{userId}")]
+        public Product Get([FromQuery] int userId)
+        {
+            return null;
+         }
     }
 }
