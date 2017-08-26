@@ -17,6 +17,7 @@ namespace GiveAShitBackend.Controllers
         {
             _productService = productService;
         }
+        
         // GET api/product
         [HttpGet]
         public IEnumerable<Product> Get()

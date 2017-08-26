@@ -11,7 +11,7 @@ namespace GiveAShitBackend.Database
         }
        
         public virtual DbSet<Product> Products { get; set; }
-//        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<User> Users { get; set; }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
