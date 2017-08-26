@@ -18,6 +18,7 @@ namespace GiveAShitBackend.Database
         public virtual DbSet<Donation> Donations { get; set; }
 //        public virtual DbSet<BlackListedProducts> BlackList { get; set; }
         public virtual DbSet<UserTransaction> UserTransactions { get; set; }
+        public virtual DbSet<Barcode> Barcodes { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

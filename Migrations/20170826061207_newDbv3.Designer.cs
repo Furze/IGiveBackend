@@ -12,30 +12,15 @@ using System;
 namespace GiveAShitBackend.Migrations
 {
     [DbContext(typeof(GASDbContext))]
-    partial class GASDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170826061207_newDbv3")]
+    partial class newDbv3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.0.0-rtm-26452")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-            modelBuilder.Entity("GiveAShitBackend.Database.Models.Barcode", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Guid");
-
-                    b.Property<int?>("UserId");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Barcodes");
-                });
 
             modelBuilder.Entity("GiveAShitBackend.Database.Models.Donation", b =>
                 {
@@ -66,8 +51,6 @@ namespace GiveAShitBackend.Migrations
 
                     b.Property<string>("Barcode");
 
-                    b.Property<int?>("BarcodeId");
-
                     b.Property<string>("Brand");
 
                     b.Property<string>("ImageUrl");
@@ -77,8 +60,6 @@ namespace GiveAShitBackend.Migrations
                     b.Property<double>("Price");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("BarcodeId");
 
                     b.ToTable("Products");
                 });
@@ -171,13 +152,6 @@ namespace GiveAShitBackend.Migrations
                     b.ToTable("UserTransactions");
                 });
 
-            modelBuilder.Entity("GiveAShitBackend.Database.Models.Barcode", b =>
-                {
-                    b.HasOne("GiveAShitBackend.Database.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
-                });
-
             modelBuilder.Entity("GiveAShitBackend.Database.Models.Donation", b =>
                 {
                     b.HasOne("GiveAShitBackend.Database.Models.User", "DonatorUser")
@@ -191,13 +165,6 @@ namespace GiveAShitBackend.Migrations
                     b.HasOne("GiveAShitBackend.Database.Models.User", "ReciepientUser")
                         .WithMany()
                         .HasForeignKey("ReciepientUserId");
-                });
-
-            modelBuilder.Entity("GiveAShitBackend.Database.Models.Product", b =>
-                {
-                    b.HasOne("GiveAShitBackend.Database.Models.Barcode")
-                        .WithMany("Products")
-                        .HasForeignKey("BarcodeId");
                 });
 
             modelBuilder.Entity("GiveAShitBackend.Database.Models.ProductAssignment", b =>

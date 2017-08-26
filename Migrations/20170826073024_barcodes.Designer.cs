@@ -12,9 +12,10 @@ using System;
 namespace GiveAShitBackend.Migrations
 {
     [DbContext(typeof(GASDbContext))]
-    partial class GASDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170826073024_barcodes")]
+    partial class barcodes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
